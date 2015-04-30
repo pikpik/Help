@@ -11,7 +11,7 @@ askedForTopic () {
 	
 	topic="$1"
 	
-	helpFile="${helpPath}/${topic}.md"
+	helpFile="${helpPath}/${topic}.txt"
 	
 	if [ -f "$helpFile" ]
 	
@@ -44,7 +44,7 @@ showTopics () {
 	cd "$helpPath"
 	
 	find . -type f \
-		| sed 's/\.md//' \
+		| sed 's/\.txt//' \
 		| sed 's@./@@' \
 		| sed '/^.$/d' \
 		| sort
