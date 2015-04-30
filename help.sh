@@ -60,7 +60,7 @@ showTopic () {
 	
 	helpFile="$1"
 	
-	less "$helpFile"
+	$fileViewer "$helpFile"
 	
 }
 
