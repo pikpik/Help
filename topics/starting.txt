@@ -1,1 +1,25 @@
 Hello!
+
+This is a really long introduction. The point of this is to simulate long lines. It's also supposed to be at least somewhat informative though.
+
+So, instead of just spamming you with lots of ipsum lorem, I'll try explaining some idea I have for this.
+
+The point of this Help program is to try to make it easier for things to get documented. This has at least two parts.
+
+First, this can help open source project maintainers to keep their documentation up-to-date.
+
+Second, it can reduce the barrier to entry for those in the community who wish to contribute valuable feedback and help by documenting things.
+
+How could this be done? Well, the idea of this Help program is to achieve it by allowing documentation to be edited very easily.
+
+The idea is that a simple set of text files and folders can be used to store documentation for individual topics or groups of related topics.
+
+Within the text files, a very simple editing style, similar to a Readme file, could be used.
+
+The point of this is to make the documentation system easy to use and feel very open and inclusive to editing.
+
+To do that, it might be best to keep the formatting and editing conventions as loose, informal, and (potentially) flexible as possible, while still having some form of cohesive structure and curation.
+
+It's gotta be easy to read and understand, but also easy for anyone to edit and contribute their changes for it.
+
+It's a balance, but most things are and compromise might be a good thing. :)
