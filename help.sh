@@ -49,9 +49,9 @@ showTopics () {
 	
 	echo -e "\n\nHints!\n"
 	
-	echo -e "\tType \"$me\" for topics, or\n"
+	echo -e "\tType \"sh $me\" for topics, or\n"
 	
-	echo -e "\tType \"$me topic\" for information.\n"
+	echo -e "\tType \"sh $me topic\" for information.\n"
 	
 }
 
