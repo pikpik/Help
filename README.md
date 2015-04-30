@@ -17,7 +17,7 @@ starting
 
 Hints!
 
-	Type "help.sh" for topics, or
+	Type "sh help.sh" for topics, or
 
-	Type "help.sh topic" for information.
+	Type "sh help.sh topic" for information.
 ```
