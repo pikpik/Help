@@ -1,4 +1,6 @@
-helpPath="$( dirname $0 )/topics"
+me="$0"
+
+helpPath="$( dirname $me )/topics"
 
 topic="$1"
 
@@ -45,7 +47,11 @@ showTopics () {
 		| sed '/^.$/d' \
 		| sort
 	
-	echo ""
+	echo -e "\n\nHints!\n"
+	
+	echo -e "\tType \"$me\" for topics, or\n"
+	
+	echo -e "\tType \"$me topic\" for information.\n"
 	
 }
 
