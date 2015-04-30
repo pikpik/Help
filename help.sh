@@ -1,3 +1,5 @@
+#!/bin/sh
+
 me="$0"
 
 helpPath="$( dirname $me )/topics"
