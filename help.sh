@@ -2,7 +2,6 @@
 
 me="$0"
 
-helpPath="$( dirname $me )/topics"
 
 topic="$1"
 
@@ -65,6 +64,14 @@ showTopic () {
 	
 }
 
+
+# Include configuration file.
+# This path can be redefined by installers.
+
+. $( dirname $me )/help.conf.sh
+
+
+# Begin
 
 if [ ! "$topic" = "" ]
 
